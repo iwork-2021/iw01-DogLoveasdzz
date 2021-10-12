@@ -13,6 +13,7 @@
 		67205DCE27146CC9007EFAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67205DCC27146CC9007EFAD7 /* Main.storyboard */; };
 		67205DD027146CCA007EFAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67205DCF27146CCA007EFAD7 /* Assets.xcassets */; };
 		67205DD327146CCA007EFAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67205DD127146CCA007EFAD7 /* LaunchScreen.storyboard */; };
+		67D32DAB2715B3C100EAD806 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D32DAA2715B3C100EAD806 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		67205DCF27146CCA007EFAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67205DD227146CCA007EFAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67205DD427146CCA007EFAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D32DAA2715B3C100EAD806 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				67205DC627146CC9007EFAD7 /* AppDelegate.swift */,
 				67205DC827146CC9007EFAD7 /* SceneDelegate.swift */,
 				67205DCA27146CC9007EFAD7 /* ViewController.swift */,
+				67D32DAA2715B3C100EAD806 /* Calculator.swift */,
 				67205DCC27146CC9007EFAD7 /* Main.storyboard */,
 				67205DCF27146CCA007EFAD7 /* Assets.xcassets */,
 				67205DD127146CCA007EFAD7 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67205DCB27146CC9007EFAD7 /* ViewController.swift in Sources */,
+				67D32DAB2715B3C100EAD806 /* Calculator.swift in Sources */,
 				67205DC727146CC9007EFAD7 /* AppDelegate.swift in Sources */,
 				67205DC927146CC9007EFAD7 /* SceneDelegate.swift in Sources */,
 			);
