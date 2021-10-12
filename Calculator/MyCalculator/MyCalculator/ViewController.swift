@@ -52,6 +52,9 @@ class ViewController: UIViewController {
     @IBAction func operatorTouched(_ sender: UIButton) {
         //print("Operator \(sender.currentTitle!) touched")
         if let op = sender.currentTitle{
+            if digitOnDisplay == "."{
+                digitOnDisplay = "0"
+            }
             if let result = calculator.performOperation(operation: op, operand: Double(digitOnDisplay)!){
                 digitOnDisplay = String(result)
             }
